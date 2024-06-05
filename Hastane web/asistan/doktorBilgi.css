@@ -1,0 +1,104 @@
+html body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.hizliErisim{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkgray;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px darkgray;
+    margin: 10px;
+    width: 350px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkgray;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px darkgray;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.doktorListesi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+.container.clearfix {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 190px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-social {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-social:hover {
+    background-color: #495057;
+    border-color: #495057;
+}

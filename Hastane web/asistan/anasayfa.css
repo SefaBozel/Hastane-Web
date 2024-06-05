@@ -1,0 +1,82 @@
+html body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: darkgray;
+}
+
+.carousel-item img {
+    height: 600px; /* İstediğiniz yüksekliği buraya girin */
+    object-fit: cover; /* Resmin içeriğini kesmeden yerleştirir */
+}
+
+h1{
+    color: rgb(138, 138, 138);
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto; /* Ortalamak için */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+.container.clearfix {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 190px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-social {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-social:hover {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+.copyright {
+    background-color: #212529;
+    color: #868e96;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright small {
+    margin: 0;
+}
